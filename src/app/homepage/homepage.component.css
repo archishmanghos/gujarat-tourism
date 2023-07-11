@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("../../assets/gujarat-home.jpg");
+  
+    /* Full height */
+    height: 100%;
+    min-height: 880px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.carousel-container {
+  height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/unity-gujarat.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-item img {
+  width: 700px;
+  max-width: 700px;
+  height: 500px;
+  max-height: 500px;
+  object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.carousel-img {
+  -webkit-filter: brightness(100%);
+}
+
+.carousel-img:hover {
+  -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}

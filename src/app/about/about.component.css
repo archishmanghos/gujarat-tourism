@@ -1,0 +1,11 @@
+.about-container {
+    color: white;
+    height: 950px;
+  justify-content: left;
+  background-image: url("../../assets/kutch-gujarat.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 40px;
+  padding-top: 100px;
+}

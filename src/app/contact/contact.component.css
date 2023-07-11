@@ -1,0 +1,11 @@
+.contact-container {
+color: white;
+  height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/gir-gujarat.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

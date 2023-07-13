@@ -1,0 +1,37 @@
+.destination-container {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../../assets/destination-gujarat.jpeg.jpeg");
+  
+    /* Full height */
+    height: 100%;
+    min-height: 880px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-images {
+    height: 300px;
+    width: 200px;
+    border-radius: 5%;
+    -webkit-filter: brightness(100%);
+}
+
+.destination-images:hover {
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+/* .destination-container-image {
+    padding-bottom: 2%;
+} */

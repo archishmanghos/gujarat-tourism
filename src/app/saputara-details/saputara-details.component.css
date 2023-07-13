@@ -6,15 +6,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    font-family: 'Roboto Slab', serif;
 }
 
 .saputara-banner-text-heading {
     position: absolute;
     bottom: 0;
-    left: 30%;
+    left: 50%;
     font-weight: 400;
     font-size: 40px;
     color: white;
+    width: 100%;
+}
+
+.saputara-content {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 10%;
+    background-color: #C1ECE4;
+    margin-bottom: 3%;
 }
 
 .saputara-location {

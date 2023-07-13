@@ -10,7 +10,14 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MdbCarouselModule} from 'mdb-angular-ui-kit/carousel';
-import { ContactComponent } from './contact/contact.component'
+import { ContactComponent } from './contact/contact.component';
+import { DestinationsComponent } from './destinations/destinations.component';
+import { FestivalsComponent } from './festivals/festivals.component';
+import { FooterComponent } from './footer/footer.component';
+import { FestivalDetailsComponent } from './festival-details/festival-details.component';
+import { SaputaraDetailsComponent } from './saputara-details/saputara-details.component';
+import { NavratriDetailsComponent } from './navratri-details/navratri-details.component';
+import { DarbarDetailsComponent } from './darbar-details/darbar-details.component'
 
 @NgModule({
   declarations: [
@@ -19,7 +26,14 @@ import { ContactComponent } from './contact/contact.component'
     AboutComponent,
     HomepageComponent,
     LoginComponent,
-    ContactComponent
+    ContactComponent,
+    DestinationsComponent,
+    FestivalsComponent,
+    FooterComponent,
+    FestivalDetailsComponent,
+    SaputaraDetailsComponent,
+    NavratriDetailsComponent,
+    DarbarDetailsComponent
   ],
   imports: [
     BrowserModule,

@@ -15,9 +15,11 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
   }
 
 .carousel-container {
+  font-family: 'Montserrat', sans-serif;
   height: 950px;
   display: flex;
   align-items: center;

@@ -1,0 +1,17 @@
+.festival-container {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../../assets/festival-background.jpeg");
+  
+    /* Full height */
+    height: 100%;
+    min-height: 880px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

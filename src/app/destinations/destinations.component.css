@@ -1,37 +1,77 @@
+a.darken {
+  display: inline-block;
+  background: black;
+  padding: 0;
+  position: relative;
+  border-radius: 5%;
+}
+
+a.darken img {
+  display: block;
+  border-radius: 5%;
+
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+a.darken:hover img {
+  opacity: 0.4;
+}
+a.darken h5{
+  position: absolute;
+  bottom: 15%;
+  display: none;
+  left: 5%;
+}
+a.darken:hover h5 {
+  display: block;
+  color: #fff;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+a.darken p{
+    position: absolute;
+    bottom: 0;
+    display: none;
+    left: 5%;
+  }
+  a.darken:hover p {
+    display: block;
+    color: #fff;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+
 .destination-container {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url("../../assets/destination-gujarat.jpeg.jpeg");
-  
-    /* Full height */
-    height: 100%;
-    min-height: 880px; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../../assets/destination-gujarat.jpeg.jpeg");
+  height: 100%;
+  min-height: 950px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8%;
+  padding-left: 12%;
 }
 
-.destination-images {
-    height: 300px;
-    width: 200px;
-    border-radius: 5%;
-    -webkit-filter: brightness(100%);
+.destination-container-image {
+  height: 300px;
+  width: 300px;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  border-radius: 5%;
+  padding: 0;
+  text-align: left;
 }
-
-.destination-images:hover {
-    -webkit-filter: brightness(30%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-/* .destination-container-image {
-    padding-bottom: 2%;
-} */

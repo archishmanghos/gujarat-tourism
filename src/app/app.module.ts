@@ -17,7 +17,10 @@ import { FooterComponent } from './footer/footer.component';
 import { FestivalDetailsComponent } from './festival-details/festival-details.component';
 import { SaputaraDetailsComponent } from './saputara-details/saputara-details.component';
 import { NavratriDetailsComponent } from './navratri-details/navratri-details.component';
-import { DarbarDetailsComponent } from './darbar-details/darbar-details.component'
+import { DarbarDetailsComponent } from './darbar-details/darbar-details.component';
+import { GirComponent } from './gir/gir.component';
+import { VadnagarComponent } from './vadnagar/vadnagar.component';
+import { StatueComponent } from './statue/statue.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { DarbarDetailsComponent } from './darbar-details/darbar-details.componen
     FestivalDetailsComponent,
     SaputaraDetailsComponent,
     NavratriDetailsComponent,
-    DarbarDetailsComponent
+    DarbarDetailsComponent,
+    GirComponent,
+    VadnagarComponent,
+    StatueComponent
   ],
   imports: [
     BrowserModule,

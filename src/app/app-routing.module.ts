@@ -8,6 +8,9 @@ import { FestivalDetailsComponent } from './festival-details/festival-details.co
 import { SaputaraDetailsComponent } from './saputara-details/saputara-details.component';
 import { NavratriDetailsComponent } from './navratri-details/navratri-details.component';
 import { DarbarDetailsComponent } from './darbar-details/darbar-details.component';
+import { GirComponent } from './gir/gir.component';
+import { VadnagarComponent } from './vadnagar/vadnagar.component';
+import { StatueComponent } from './statue/statue.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -18,7 +21,10 @@ const routes: Routes = [
   {path: 'festivals', component: FestivalDetailsComponent},
   {path: 'saputara', component: SaputaraDetailsComponent},
   {path: 'navratri', component: NavratriDetailsComponent},
-  {path: 'dangdarbar', component: DarbarDetailsComponent}
+  {path: 'dangdarbar', component: DarbarDetailsComponent},
+  {path: 'gir', component: GirComponent},
+  {path: 'vadnagar', component: VadnagarComponent},
+  {path: 'statueOfUnity', component: StatueComponent}
 ];
 
 @NgModule({

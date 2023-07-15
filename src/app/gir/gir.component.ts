@@ -1,0 +1,10 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-gir',
+  templateUrl: './gir.component.html',
+  styleUrls: ['./gir.component.css']
+})
+export class GirComponent {
+
+}

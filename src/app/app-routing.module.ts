@@ -11,6 +11,14 @@ import { DarbarDetailsComponent } from './darbar-details/darbar-details.componen
 import { GirComponent } from './gir/gir.component';
 import { VadnagarComponent } from './vadnagar/vadnagar.component';
 import { StatueComponent } from './statue/statue.component';
+import { SmritivanComponent } from './smritivan/smritivan.component';
+import { RajchandraAshramComponent } from './rajchandra-ashram/rajchandra-ashram.component';
+import { SunTempleComponent } from './sun-temple/sun-temple.component';
+import { DholaviraComponent } from './dholavira/dholavira.component';
+import { RaniKiVavComponent } from './rani-ki-vav/rani-ki-vav.component';
+import { MaqbaraComponent } from './maqbara/maqbara.component';
+import { MitiyalaComponent } from './mitiyala/mitiyala.component';
+import { GirnarHillsComponent } from './girnar-hills/girnar-hills.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -24,7 +32,15 @@ const routes: Routes = [
   {path: 'dangdarbar', component: DarbarDetailsComponent},
   {path: 'gir', component: GirComponent},
   {path: 'vadnagar', component: VadnagarComponent},
-  {path: 'statueOfUnity', component: StatueComponent}
+  {path: 'statueOfUnity', component: StatueComponent},
+  {path: 'smritivan', component: SmritivanComponent},
+  {path: 'shrimad-rajchandra-ashram', component: RajchandraAshramComponent},
+  {path: 'modhera-sun-temple', component: SunTempleComponent},
+  {path: 'dholavira', component: DholaviraComponent},
+  {path: 'rani-ki-vav', component: RaniKiVavComponent},
+  {path: 'mahabat-maqbara', component: MaqbaraComponent},
+  {path: 'mitiyala-wildlife-sanctuary', component: MitiyalaComponent},
+  {path: 'girnar-hills', component: GirnarHillsComponent}
 ];
 
 @NgModule({

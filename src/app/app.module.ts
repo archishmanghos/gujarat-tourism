@@ -20,7 +20,15 @@ import { NavratriDetailsComponent } from './navratri-details/navratri-details.co
 import { DarbarDetailsComponent } from './darbar-details/darbar-details.component';
 import { GirComponent } from './gir/gir.component';
 import { VadnagarComponent } from './vadnagar/vadnagar.component';
-import { StatueComponent } from './statue/statue.component'
+import { StatueComponent } from './statue/statue.component';
+import { SmritivanComponent } from './smritivan/smritivan.component';
+import { RajchandraAshramComponent } from './rajchandra-ashram/rajchandra-ashram.component';
+import { SunTempleComponent } from './sun-temple/sun-temple.component';
+import { DholaviraComponent } from './dholavira/dholavira.component';
+import { RaniKiVavComponent } from './rani-ki-vav/rani-ki-vav.component';
+import { MaqbaraComponent } from './maqbara/maqbara.component';
+import { MitiyalaComponent } from './mitiyala/mitiyala.component';
+import { GirnarHillsComponent } from './girnar-hills/girnar-hills.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +47,15 @@ import { StatueComponent } from './statue/statue.component'
     DarbarDetailsComponent,
     GirComponent,
     VadnagarComponent,
-    StatueComponent
+    StatueComponent,
+    SmritivanComponent,
+    RajchandraAshramComponent,
+    SunTempleComponent,
+    DholaviraComponent,
+    RaniKiVavComponent,
+    MaqbaraComponent,
+    MitiyalaComponent,
+    GirnarHillsComponent
   ],
   imports: [
     BrowserModule,

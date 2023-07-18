@@ -86,27 +86,6 @@ a.darken {
   padding-left: 7%;
 }
 
-.vadnagar-banner {
-  background-image: url("../../assets/vadnagar-banner.jpg");
-  height: 50%;
-  min-height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  font-family: "Roboto Slab", serif;
-}
-
-.vadnagar-banner-text-heading {
-  position: absolute;
-  bottom: 0;
-  left: 80%;
-  font-weight: 400;
-  font-size: 40px;
-  color: white;
-  width: 100%;
-}
-
 .vadnagar-content {
   font-family: "Montserrat", sans-serif;
   padding: 5% 10%;

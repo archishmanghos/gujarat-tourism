@@ -1,0 +1,44 @@
+.carousel-container {
+  font-family: "Montserrat", sans-serif;
+  height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  width: 700px;
+  max-width: 700px;
+  height: 500px;
+  max-height: 500px;
+  object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+}
+
+.carousel-img {
+  -webkit-filter: brightness(100%);
+}
+
+.carousel-img:hover {
+  -webkit-filter: brightness(30%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.heading {
+  padding-left: 5%;
+  padding-top: 5%;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+}
+
+.trails {
+  background-image: url("../../assets/unity-gujarat.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

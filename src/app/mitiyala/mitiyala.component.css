@@ -104,3 +104,26 @@ a.darken:hover p {
 .transport-flight {
   padding-left: 7%;
 }
+
+.cf {
+  display: block;
+}
+
+.navigation {
+  position: fixed;
+  list-style-type: none;
+  top: 50%;
+  margin-top: -110px;
+  right: 0;
+  padding: 5px 5px;
+  width: 40px;
+  background-color: #45cfdd;
+  z-index: 1;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.icon:hover {
+  background-color: #0e8388;
+  cursor: pointer;
+}

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./koteshwar-mahadev-temple.component.css']
 })
 export class KoteshwarMahadevTempleComponent {
-
-}
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
+} 

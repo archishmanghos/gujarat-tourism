@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./sayaji-baug.component.css']
 })
 export class SayajiBaugComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

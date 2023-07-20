@@ -65,7 +65,8 @@ import { NironaComponent } from './nirona/nirona.component';
 import { NargolBeachComponent } from './nargol-beach/nargol-beach.component';
 import { TithalBeachComponent } from './tithal-beach/tithal-beach.component';
 import { PadamDungriEcotourismComponent } from './padam-dungri-ecotourism/padam-dungri-ecotourism.component';
-import { PurnaWildlifeComponent } from './purna-wildlife/purna-wildlife.component'
+import { PurnaWildlifeComponent } from './purna-wildlife/purna-wildlife.component';
+import { TrailsComponent } from './trails/trails.component'
 
 @NgModule({
   declarations: [
@@ -129,7 +130,8 @@ import { PurnaWildlifeComponent } from './purna-wildlife/purna-wildlife.componen
     NargolBeachComponent,
     TithalBeachComponent,
     PadamDungriEcotourismComponent,
-    PurnaWildlifeComponent
+    PurnaWildlifeComponent,
+    TrailsComponent
   ],
   imports: [
     BrowserModule,

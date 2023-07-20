@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./girnar-hills.component.css']
 })
 export class GirnarHillsComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

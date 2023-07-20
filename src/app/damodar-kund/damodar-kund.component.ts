@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./damodar-kund.component.css']
 })
 export class DamodarKundComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

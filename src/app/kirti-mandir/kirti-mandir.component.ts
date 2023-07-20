@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./kirti-mandir.component.css']
 })
 export class KirtiMandirComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

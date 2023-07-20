@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
+  tohome() {
+    document.getElementById("home")!.scrollIntoView();
+  }
+  tocarousel() {
+    document.getElementById("carouselContainer")!.scrollIntoView();
+  }
+  todest() {
+    document.getElementById("destinations")!.scrollIntoView();
+  }
+  tofair() {
+    document.getElementById("fairs")!.scrollIntoView();
+  }
 }

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./ahmedpur-mandvi.component.css']
 })
 export class AhmedpurMandviComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

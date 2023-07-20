@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./somnath-temple.component.css']
 })
 export class SomnathTempleComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

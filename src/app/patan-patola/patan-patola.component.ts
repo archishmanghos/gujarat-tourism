@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./patan-patola.component.css']
 })
 export class PatanPatolaComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

@@ -93,6 +93,18 @@ a.darken:hover p {
   margin-bottom: 5%;
 }
 
+.transport-bus {
+  padding-left: 11%;
+}
+
+.transport-train {
+  padding-left: 13%;
+}
+
+.transport-flight {
+  padding-left: 7%;
+}
+
 .cf {
   display: block;
 }
@@ -111,14 +123,7 @@ a.darken:hover p {
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.transport-bus {
-  padding-left: 11%;
-}
-
-.transport-train {
-  padding-left: 13%;
-}
-
-.transport-flight {
-  padding-left: 7%;
+.icon:hover {
+  background-color: #0e8388;
+  cursor: pointer;
 }

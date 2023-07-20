@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./ratanmahal-sloth.component.css']
 })
 export class RatanmahalSlothComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

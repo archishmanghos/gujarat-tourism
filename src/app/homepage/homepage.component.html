@@ -1,47 +1,11 @@
-<div class="bg"></div>
-<div class="carousel-container">
-  <mdb-carousel class="rounded-5 shadow-4-strong" [controls]="true" [animation]="'fade'">
-    <mdb-carousel-item>
-      <img
-      src="../../assets/cuisine-gujarat.jpg"
-      class="d-block w-100 carousel-img"
-      alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Flavours</h5>
-      </div>
-    </mdb-carousel-item>
-    <mdb-carousel-item>
-      <img
-      src="../../assets/museum-gujarat.jpg"
-      class="d-block w-100 carousel-img"
-      alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Museums</h5>
-      </div>
-    </mdb-carousel-item>
-    <mdb-carousel-item>
-      <img
-      src="../../assets/wildlife-gujarat.jpg"
-      class="d-block w-100 carousel-img"
-      alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Flora and Fauna</h5>
-      </div>
-    </mdb-carousel-item>
-    <mdb-carousel-item>
-      <img
-      src="../../assets/temple-gujarat.jpg"
-      class="d-block w-100 carousel-img"
-      alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Religious Sites</h5>
-      </div>
-    </mdb-carousel-item>
-  </mdb-carousel>
-</div>
-<app-destinations></app-destinations>
-<app-festivals></app-festivals>
+<div class="bg" id="home"></div>
+<app-trails id="carouselContainer"></app-trails>
+<app-destinations id="destinations"></app-destinations>
+<app-festivals id="fairs"></app-festivals>
+<ul class="navigation cf">
+  <li (click)="tohome()" class="my-2 icon"><img src="../../assets/home.png" alt="" class="iconImg"></li>
+  <li (click)="tocarousel()" class="my-2 icon"><img src="../../assets/pngwing.com.png" alt="" class="iconImg"></li>
+  <li (click)="todest()" class="my-2 icon"><img src="../../assets/destination-icon.png" alt="" class="iconImg"></li>
+  <li (click)="tofair()" class="my-2 icon"><img src="../../assets/festival.png" alt="" class="iconImg"></li>
+  <li (click)="tohome()" class="my-2 icon"><img src="../../assets/up-arrow.png" alt="" class="iconImg"></li>
+</ul>

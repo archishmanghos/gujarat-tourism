@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./mitiyala.component.css']
 })
 export class MitiyalaComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

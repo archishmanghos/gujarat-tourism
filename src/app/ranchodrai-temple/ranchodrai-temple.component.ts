@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./ranchodrai-temple.component.css']
 })
 export class RanchodraiTempleComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./great-rann-of-kutch.component.css']
 })
 export class GreatRannOfKutchComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

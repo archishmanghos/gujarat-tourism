@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./rani-ki-vav.component.css']
 })
 export class RaniKiVavComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

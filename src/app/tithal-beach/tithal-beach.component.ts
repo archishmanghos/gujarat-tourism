@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./tithal-beach.component.css']
 })
 export class TithalBeachComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

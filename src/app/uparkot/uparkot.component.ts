@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./uparkot.component.css']
 })
 export class UparkotComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

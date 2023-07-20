@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./kalo-dungar.component.css']
 })
 export class KaloDungarComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

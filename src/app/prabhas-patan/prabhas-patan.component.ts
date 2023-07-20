@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./prabhas-patan.component.css']
 })
 export class PrabhasPatanComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }

@@ -42,6 +42,20 @@ import { RanchodraiTempleComponent } from './ranchodrai-temple/ranchodrai-temple
 import { SayajiBaugComponent } from './sayaji-baug/sayaji-baug.component';
 import { KoteshwarMahadevTempleComponent } from './koteshwar-mahadev-temple/koteshwar-mahadev-temple.component';
 import { GreatRannOfKutchComponent } from './great-rann-of-kutch/great-rann-of-kutch.component';
+import { NarayanSarovarComponent } from './narayan-sarovar/narayan-sarovar.component';
+import { LakhpatFortComponent } from './lakhpat-fort/lakhpat-fort.component';
+import { RatanmahalSlothComponent } from './ratanmahal-sloth/ratanmahal-sloth.component';
+import { DumasBeachComponent } from './dumas-beach/dumas-beach.component';
+import { ShoolpaneshwarComponent } from './shoolpaneshwar/shoolpaneshwar.component';
+import { JambughodaComponent } from './jambughoda/jambughoda.component';
+import { LaxmiVilasPalaceComponent } from './laxmi-vilas-palace/laxmi-vilas-palace.component';
+import { KirtiMandirComponent } from './kirti-mandir/kirti-mandir.component';
+import { KaloDungarComponent } from './kalo-dungar/kalo-dungar.component';
+import { NironaComponent } from './nirona/nirona.component';
+import { NargolBeachComponent } from './nargol-beach/nargol-beach.component';
+import { TithalBeachComponent } from './tithal-beach/tithal-beach.component';
+import { PadamDungriEcotourismComponent } from './padam-dungri-ecotourism/padam-dungri-ecotourism.component';
+import { PurnaWildlifeComponent } from './purna-wildlife/purna-wildlife.component';
 
 const routes: Routes = [
   { path: '', component: HomepageComponent },
@@ -55,7 +69,7 @@ const routes: Routes = [
   {path: 'dangdarbar', component: DarbarDetailsComponent},
   {path: 'gir', component: GirComponent},
   {path: 'vadnagar', component: VadnagarComponent},
-  {path: 'statueOfUnity', component: StatueComponent},
+  {path: 'statue-of-unity', component: StatueComponent},
   {path: 'smritivan', component: SmritivanComponent},
   {path: 'shrimad-rajchandra-ashram', component: RajchandraAshramComponent},
   {path: 'modhera-sun-temple', component: SunTempleComponent},
@@ -86,7 +100,21 @@ const routes: Routes = [
   {path: 'ranchodrai-temple', component: RanchodraiTempleComponent},
   {path: 'koteshwar-mahadev-temple', component: KoteshwarMahadevTempleComponent},
   {path: 'sayaji-baug', component: SayajiBaugComponent},
-  {path: 'great-rann-of-kutch', component: GreatRannOfKutchComponent}
+  {path: 'great-rann-of-kutch', component: GreatRannOfKutchComponent},
+  {path: 'narayan-sarovar', component: NarayanSarovarComponent},
+  {path: 'lakhpat-fort', component: LakhpatFortComponent},
+  {path: 'ratanmahal-sloth-bear-sanctuary', component: RatanmahalSlothComponent},
+  {path: 'dumas-beach', component: DumasBeachComponent},
+  {path: 'shoolpaneshwar-wildlife-sanctuary', component: ShoolpaneshwarComponent},
+  {path: 'jambughoda-wildlife-sanctuary', component: JambughodaComponent},
+  {path: 'laxmi-vilas-palace', component: LaxmiVilasPalaceComponent},
+  {path: 'kirti-mandir', component: KirtiMandirComponent},
+  {path: 'kalo-dungar', component: KaloDungarComponent},
+  {path: 'nirona', component: NironaComponent},
+  {path: 'nargol-beach', component: NargolBeachComponent},
+  {path: 'tithal-beach', component: TithalBeachComponent},
+  {path: 'padam-dungri-ecotourism', component: PadamDungriEcotourismComponent},
+  {path: 'purna-wildlife', component: PurnaWildlifeComponent}
 ];
 
 @NgModule({

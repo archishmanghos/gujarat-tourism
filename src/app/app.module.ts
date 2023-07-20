@@ -51,7 +51,21 @@ import { HatkeshwarTempleComponent } from './hatkeshwar-temple/hatkeshwar-temple
 import { RanchodraiTempleComponent } from './ranchodrai-temple/ranchodrai-temple.component';
 import { SayajiBaugComponent } from './sayaji-baug/sayaji-baug.component';
 import { KoteshwarMahadevTempleComponent } from './koteshwar-mahadev-temple/koteshwar-mahadev-temple.component';
-import { GreatRannOfKutchComponent } from './great-rann-of-kutch/great-rann-of-kutch.component'
+import { GreatRannOfKutchComponent } from './great-rann-of-kutch/great-rann-of-kutch.component';
+import { NarayanSarovarComponent } from './narayan-sarovar/narayan-sarovar.component';
+import { LakhpatFortComponent } from './lakhpat-fort/lakhpat-fort.component';
+import { RatanmahalSlothComponent } from './ratanmahal-sloth/ratanmahal-sloth.component';
+import { DumasBeachComponent } from './dumas-beach/dumas-beach.component';
+import { ShoolpaneshwarComponent } from './shoolpaneshwar/shoolpaneshwar.component';
+import { JambughodaComponent } from './jambughoda/jambughoda.component';
+import { LaxmiVilasPalaceComponent } from './laxmi-vilas-palace/laxmi-vilas-palace.component';
+import { KirtiMandirComponent } from './kirti-mandir/kirti-mandir.component';
+import { KaloDungarComponent } from './kalo-dungar/kalo-dungar.component';
+import { NironaComponent } from './nirona/nirona.component';
+import { NargolBeachComponent } from './nargol-beach/nargol-beach.component';
+import { TithalBeachComponent } from './tithal-beach/tithal-beach.component';
+import { PadamDungriEcotourismComponent } from './padam-dungri-ecotourism/padam-dungri-ecotourism.component';
+import { PurnaWildlifeComponent } from './purna-wildlife/purna-wildlife.component'
 
 @NgModule({
   declarations: [
@@ -101,7 +115,21 @@ import { GreatRannOfKutchComponent } from './great-rann-of-kutch/great-rann-of-k
     RanchodraiTempleComponent,
     SayajiBaugComponent,
     KoteshwarMahadevTempleComponent,
-    GreatRannOfKutchComponent
+    GreatRannOfKutchComponent,
+    NarayanSarovarComponent,
+    LakhpatFortComponent,
+    RatanmahalSlothComponent,
+    DumasBeachComponent,
+    ShoolpaneshwarComponent,
+    JambughodaComponent,
+    LaxmiVilasPalaceComponent,
+    KirtiMandirComponent,
+    KaloDungarComponent,
+    NironaComponent,
+    NargolBeachComponent,
+    TithalBeachComponent,
+    PadamDungriEcotourismComponent,
+    PurnaWildlifeComponent
   ],
   imports: [
     BrowserModule,

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./sun-temple.component.css']
 })
 export class SunTempleComponent {
-
+  toAbout() {
+    document.getElementById("aboutLocation")!.scrollIntoView();
+  }
+  toGetThere() {
+    document.getElementById("getThere")!.scrollIntoView();
+  }
+  toNearby() {
+    document.getElementById("nearbyDestinations")!.scrollIntoView();
+  }
 }
